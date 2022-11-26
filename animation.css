@@ -1,12 +1,12 @@
 body{
-    margin: 0%;
+    margin:0;
 }
-.div1
-{
-    background-color:pink;
+.div1{
+    background-color: blueviolet;
     height: 200px;
     width: 200px;
     border-radius: 50%;
+    border:groove;
     position: absolute;
 
     animation-name: move_div;
@@ -14,33 +14,32 @@ body{
     animation-delay: 3s;
     animation-iteration-count: infinite;
     animation-direction: alternate;
-
 }
-
 @keyframes move_div{
     0%{
-        top:0%;
-        left:0%;
+        left :0;
+        top: 0;
+        background-color:pink;
+          
     }
     25%{
-        top:0px;
         left:400px;
+        top:0;
         background-color: yellow;
-
     }
     50%{
-        left:400px;
+        left: 400px;
         top: 400px;
+        background-color: violet;
     }
     75%{
-        left:0px;
-        top:400px;
-        background-color: palevioletred;
-
+        left: 0;
+        top: 400px;
+        background-color: blue;
     }
     100%{
-        left:0px;
-        top:0px;
-
+        top: 0;
+        left:0;
+        background-color:red;
     }
 }
